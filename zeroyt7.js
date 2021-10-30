@@ -325,8 +325,7 @@ switch (command) {
 	case 'menu':
 	case 'help':
 	case 'han':
-teks = ` 
-_________________________________
+teks = ` _________________________________
 「 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 」
 ⬣ RUNTIME = ${runtime(process.uptime())}
 ⬣ BOT NAME : ${botname}
@@ -352,7 +351,6 @@ trans = `
 ✎ ${prefix}primbonmenu
 ✎ ${prefix}stalkmenu
 ✎ ${prefix}ownermenu
-✎ ${prefix}asupanmenu
 ✎ ${prefix}cecanmenu
 ✎ ${prefix}randommememenu
 ✎ ${prefix}gabutmenu
